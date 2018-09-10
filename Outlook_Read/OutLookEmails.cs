@@ -14,6 +14,9 @@ namespace Outlook_Read
         public string EmailBCc { get; set; }
         public string EmailTo { get; set; }
         public string EmailAttachment { get; set; }
+        //public string EmailBCc { get; set; }
+        //public string EmailTo { get; set; }
+        //public string EmailAttachment { get; set; }
         public static List<OutLookEmails> ReadMailItems()
         {
             List<OutLookEmails> listEmailDetails = new List<OutLookEmails>();
