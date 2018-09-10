@@ -11,6 +11,9 @@ namespace Outlook_Read
         public string EmailFrom { get; set; }
         public string EmailSubject { get; set; }
         public string EmailBody { get; set; }
+        public string EmailFrom1 { get; set; }
+        public string EmailSubject1 { get; set; }
+        public string EmailBody1 { get; set; }
         public static List<OutLookEmails> ReadMailItems()
         {
             List<OutLookEmails> listEmailDetails = new List<OutLookEmails>();
