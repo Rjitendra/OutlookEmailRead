@@ -6,7 +6,7 @@ namespace Outlook_Read
 {
     public class OutLookEmails
     {
-        // hi jitendra
+        // hi jitendra behera give pull request
         public string EmailFrom { get; set; }
         public string EmailSubject { get; set; }
         public string EmailBody { get; set; }
